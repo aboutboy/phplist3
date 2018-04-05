@@ -326,7 +326,7 @@ if ($id) {
     }
 
     echo '<div class="actions">';
-    
+
     if (!empty($GLOBALS['config']['plugins']) && is_array($GLOBALS['config']['plugins'])) {
         foreach ($GLOBALS['config']['plugins'] as $pluginName => $plugin) {
             echo $plugin->userpageLink($id);
